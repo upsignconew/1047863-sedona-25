@@ -1,12 +1,69 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
-  </head>
-  <body>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sedona</title>
+</head>
+<body>
+	<header class="main-header">
+		<nav class="main-navigation">
+			<a class="main-header-logo">
+				<img src="img/header-logo.svg" alt="Sedona logo" width="400" height="300">
+			</a>
+			
+			<ul class="site-navigation">
+				<li><a href="info.html">Информация</a></li>
+				<li><a href="gallery.html">Фото и видео</a></li>
+				<li><a href="map.html">Карта штата</a></li>
+				<li><a href="hotels.html">Гостиницы</a></li>
+			</ul>
+		</nav>
+	</header>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+	<main>
+		<h1 class="visually-hidden">
+				Седона, штат Аризона
+		</h1>
 
-  </body>
+		<section class="intro">
+			<h2 class="visually-hidden">Седона Промо</h2>
+			<img src="img/sedona-welcome.jpg" alt="sedona welcome intro image">
+		</section>
+
+		<section class="about">
+			<h2>
+				Седона — небольшой городок в Аризоне,<br>  <!-- стоит ли тут BR? !-->
+				заслуживающий большего!
+			</h2>
+			<p>
+				Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!
+			</p>
+		</section>
+
+		<!-- Контент который ещё не нужно делать -->
+
+		<section class="search">
+			<h2>Заинтересовались?</h2>
+			<p>
+				Укажите предполагаемые даты поездки, <br>
+				и мы покажем вам лучшие предложения гостиниц в седоне
+			</p>
+			<span class="search-button">Поиск гостиницы в Седоне</span>	
+		</section>
+
+	</main>
+
+	<footer class="main-footer">
+		<b>#visitSEDONA</b>      <!-- стоит ли оодин b оборачивать в p? -->
+		<ul class="social-list">  <!-- стоит ли ещё сверху завернуть в div? --> 
+			<li><a class="social-button" href="#">Twitter</a></li>
+			<li><a class="social-button" href="#">Facebook</a></li>
+			<li><a class="social-button" href="#">Youtube</a></li>
+		</ul>
+		<p class="footer-copyright">
+			<b>Website by</b>
+			<img src="img/footer-logo.svg" alt="creator of website logo" width="400" height="300">
+		</p>
+	</footer>
+</body>
 </html>
